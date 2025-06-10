@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Interview - Tech Knowledge](README.md)
+  * [Javascript - TypeScript](interview-tech-knowledge/javascript-typescript.md)
   * [React](interview-tech-knowledge/react/README.md)
     * [27 Interview Questions](interview-tech-knowledge/react/27-interview-questions.md)
     * [Question: Complex Problem?](interview-tech-knowledge/react/question-complex-problem.md)
