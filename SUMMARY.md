@@ -10,4 +10,4 @@
   * [Backend](learning-topics/backend/README.md)
     * [Basics](learning-topics/backend/basics.md)
   * [Java](learning-topics/java.md)
-* [Resources](resources.md)
+* [Useful Resources](useful-resources.md)
