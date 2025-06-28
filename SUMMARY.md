@@ -12,3 +12,4 @@
     * [Basics](learning-topics/backend/basics.md)
   * [Java](learning-topics/java.md)
 * [Useful Resources](useful-resources.md)
+* [Suggestions](suggestions.md)
