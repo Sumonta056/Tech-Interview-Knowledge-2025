@@ -1,5 +1,7 @@
 # Javascript - TypeScript
 
+<p align="center"><strong>Must Read:</strong> <a href="https://jsdev.space/solid-design-principles/?ref=dailydev"><strong>SOLID Design Principles Every JavaScript Developer Should Know</strong></a></p>
+
 <details>
 
 <summary>What is the Event Loop? How does JavaScript handle multiple lines of code, even with a single-threaded architecture?</summary>
