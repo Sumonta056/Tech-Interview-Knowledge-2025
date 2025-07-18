@@ -13,3 +13,4 @@
   * [Java](learning-topics/java.md)
 * [Useful Resources](useful-resources.md)
 * [Suggestions](suggestions.md)
+* [Industry Experience - Tips](industry-experience-tips.md)
