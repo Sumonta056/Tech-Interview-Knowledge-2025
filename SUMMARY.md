@@ -14,3 +14,5 @@
 * [Useful Resources](useful-resources.md)
 * [Suggestions](suggestions.md)
 * [Industry Experience - Tips](industry-experience-tips.md)
+* [Common Error Fix](common-error-fix/README.md)
+  * [Next.js এ Hydration Error](common-error-fix/next.js-hydration-error.md)
