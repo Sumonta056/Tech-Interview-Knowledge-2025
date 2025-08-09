@@ -7,6 +7,7 @@
     * [Question: Complex Problem?](interview-tech-knowledge/react/question-complex-problem.md)
   * [NextJS](interview-tech-knowledge/nextjs.md)
   * [SQL](interview-tech-knowledge/sql.md)
+  * [Design Pattern](interview-tech-knowledge/design-pattern.md)
 * [Learning Topics](learning-topics/README.md)
   * [Backend](learning-topics/backend/README.md)
     * [Basics](learning-topics/backend/basics.md)
