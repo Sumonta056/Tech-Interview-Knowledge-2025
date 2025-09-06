@@ -6,6 +6,8 @@
 
 <summary>What is the Event Loop? How does JavaScript handle multiple lines of code, even with a single-threaded architecture?</summary>
 
+Flow diagram: [https://theplakat.com/javascript-visualized-event-loop](https://theplakat.com/javascript-visualized-event-loop)
+
 ### 🧠 Event Loop কী?
 
 JavaScript একটি **single-threaded** ভাষা  অর্থাৎ একই সময়ে একটি কাজই করতে পারে। তাহলে প্রশ্ন হলো:
