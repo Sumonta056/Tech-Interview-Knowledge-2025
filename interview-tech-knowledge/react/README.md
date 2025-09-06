@@ -1,7 +1,5 @@
 # React
 
-**React**
-
 Basic Knowledge:
 
 * [React Fundamentals – JSX, Components, and Props Explained](https://www.freecodecamp.org/news/react-fundamentals/)
@@ -11,4 +9,4 @@ Basic Knowledge:
 
 Development Knowledge :
 
-* 5 Essential Practice in React : https://www.surajon.dev/5-essential-react-practices-i-learned-on-the-job
+* [_5 Essential Practice in React_](https://www.surajon.dev/5-essential-react-practices-i-learned-on-the-job)&#x20;
