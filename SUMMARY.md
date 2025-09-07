@@ -8,6 +8,8 @@
   * [NextJS](interview-tech-knowledge/nextjs.md)
   * [SQL](interview-tech-knowledge/sql.md)
   * [Design Pattern](interview-tech-knowledge/design-pattern.md)
+* [System Design](system-design/README.md)
+  * [CSR, SSR, Streaming with Selective Hydration](system-design/csr-ssr-streaming-with-selective-hydration.md)
 * [Learning Topics](learning-topics/README.md)
   * [Backend](learning-topics/backend/README.md)
     * [Basics](learning-topics/backend/basics.md)
