@@ -1,8 +1,6 @@
 # Basics
 
-
-
-### Cross-Origin Resource Policy
+Cross-Origin Resource Policy
 
 <details>
 

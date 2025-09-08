@@ -1,4 +1,4 @@
-# Interview Knowledge
+# Interview - Tech Knowledge
 
 Welcome!\
 This space is dedicated to sharing valuable resources, tips, and personal insights to help students, developers, and job seekers prepare for internships, job interviews, and upskilling in software development.

@@ -1,4 +1,4 @@
-# Javascript - TypeScript
+# JS/TS
 
 <p align="center"><strong>Must Read:</strong> <a href="https://jsdev.space/solid-design-principles/?ref=dailydev"><strong>SOLID Design Principles Every JavaScript Developer Should Know</strong></a></p>
 
@@ -120,3 +120,160 @@ console.log("4");
 🔸 **Microtasks আগে, তারপর Macrotasks**
 
 </details>
+
+<details>
+
+<summary>What’s the difference between Type and Interface in TypeScript?</summary>
+
+So What’s the Real Difference?
+
+**1. Extensibility: The Big One**
+
+`interface` can be **reopened**. Like a restaurant that closes at 3 PM and magically reopens at 7 with a new menu.
+
+```ts
+interface Cat {
+  meow: () => string;
+}
+
+// Later, somewhere else in your code...
+interface Cat {
+  purr: () => string;
+}
+
+// Boom. Cat now has both meow AND purr.
+// TypeScript just… merged them. No drama.
+```
+
+Try that with `type`? Nope. Compiler throws a fit. _“Cannot redeclare ‘Cat’”_. It’s a one-shot deal. Like a tattoo you regret at 2 AM.
+
+```ts
+type Dog = {
+  bark: () => string;
+};
+
+type Dog = {
+  wagTail: () => void;
+}; // ❌ Error. TypeScript says: "Nah, bro. Pick one."
+```
+
+So, if you’re building a library, or expect your types to evolve across files? `interface` is your BFF.
+
+***
+
+**2. Flexibility in Shape**
+
+`type` doesn’t play by the same rules. It’s… wilder. Can represent **unions**, **tuples**, **mapped types**, and **conditional types** — stuff `interface` just can’t handle.
+
+```ts
+type Status = 'loading' | 'success' | 'error';
+type Coordinates = [number, number];
+type Maybe<T> = T | null | undefined;
+```
+
+Try doing that with `interface`? Good luck. You’ll end up with 17 interfaces and a therapist.
+
+`interface` is strict. It likes objects. It likes structure. It drinks black coffee and reads the spec before bed.
+
+`type`? It’s the one at the party doing handstands on the couch, yelling, _“I can be a string OR a function OR a recursive tree — deal with it!”_
+
+***
+
+**3. Merging vs. Intersection**
+
+`interface` merges automatically. Like two rivers joining.
+
+```ts
+interface User {
+  id: number;
+}
+
+interface User {
+  name: string;
+}
+
+// User now has id + name. Magic? Or just TypeScript being slick?
+```
+
+`type`? No merging. But you can **intersect**:
+
+```ts
+type Id = { id: number };
+type Name = { name: string };
+type User = Id & Name; // Same result, but manual work.
+```
+
+It’s like building a sandwich. `interface` hands you a fully stacked one. `type` gives you ingredients and a knife. You do the slicing.
+
+***
+
+**4. Performance & Tooling**
+
+Here’s a spicy take: **interfaces are slightly better for large-scale projects**. Why? Because TS can optimize them. Faster autocomplete. Smoother refactoring. Less “TS Server is thinking…” moments.
+
+Types? They’re heavier. Especially complex unions. Can slow down IDEs. Not a dealbreaker. But if you’re working on a codebase the size of a small moon? Every millisecond counts.
+
+***
+
+#### So… What Should You Use?
+
+Let’s get real. There’s no _one_ answer. But here’s my rule of thumb — forged in fire, broken builds, and late-night debugging:
+
+> **Use `interface` for public APIs, objects, and things that might grow.**\
+> **Use `type` when you need flexibility — unions, tuples, or complex logic.**
+
+Examples?
+
+✅ **Go for `interface`:**
+
+* Shapes of objects (users, config, API responses)
+* Classes implementing contracts
+* Libraries or shared code
+* Anything you might extend later
+
+✅ **Go for `type`:**
+
+* Union types (`'dark' | 'light'`)
+* Tuples (`[string, number]`)
+* Function signatures with overloads
+* Conditional or mapped types
+* When you need `&` or `|` in the definition
+
+And hey — don’t overthink it. If you’re just starting? Pick `interface` for objects. It’s safer. More predictable. Like wearing socks with sandals — functional, even if not trendy.
+
+***
+
+#### A Few Curveballs
+
+You _can_ extend an `interface` from a `type` — but only if the type is object-like.
+
+```ts
+type Animal = { sound: string };
+interface Dog extends Animal { breed: string; } // ✅ Works
+```
+
+But not the other way around if the type uses unions or primitives.
+
+And `type` can mimic `interface` using `&`, but it’s clunkier. Like using duct tape to fix a Rolex.
+
+***
+
+#### Final Thoughts?
+
+It’s not about which is _better_. It’s about **fit**.
+
+Think of `interface` as a well-tailored suit — clean, structured, meant to be built upon.\
+`type`? That’s your Swiss Army knife. Not pretty, but damn useful when things get weird.
+
+Source: [https://app.daily.dev/posts/what-s-the-difference-between-type-and-interface-in-typescript--k7yr5ybi5](https://app.daily.dev/posts/what-s-the-difference-between-type-and-interface-in-typescript--k7yr5ybi5)
+
+</details>
+
+
+
+
+
+
+
+
+
