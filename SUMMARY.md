@@ -16,7 +16,7 @@
 * [System Design](system-design/README.md)
   * [CSR, SSR, Streaming with Selective Hydration](system-design/csr-ssr-streaming-with-selective-hydration.md)
 * [Design Pattern](design-pattern.md)
-* [Guidelines ( Top SE) : Industry Experience](guidelines-top-se-industry-experience/README.md)
+* [Guidelines (Top SE Industry Experience)](guidelines-top-se-industry-experience/README.md)
   * [Knowledge](guidelines-top-se-industry-experience/knowledge.md)
 * [Useful Resources](useful-resources.md)
 * [Common Tech Error Fix](common-tech-error-fix/README.md)
