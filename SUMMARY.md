@@ -8,6 +8,7 @@
     * [Questions](core-language/react/questions/README.md)
       * [27 Interview Questions](core-language/react/questions/27-interview-questions.md)
       * [Complex Problem: You Solved](core-language/react/questions/complex-problem-you-solved.md)
+    * [How to make react faster!](core-language/react/how-to-make-react-faster.md)
   * [NextJS](core-language/nextjs.md)
   * [SQL](core-language/sql.md)
   * [Java](core-language/java.md)
