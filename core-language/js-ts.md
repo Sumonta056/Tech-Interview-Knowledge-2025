@@ -1,6 +1,8 @@
 # JS/TS
 
-<p align="center"><strong>Must Read:</strong> <a href="https://jsdev.space/solid-design-principles/?ref=dailydev"><strong>SOLID Design Principles Every JavaScript Developer Should Know</strong></a></p>
+**Must Read:** [**SOLID Design Principles Every JavaScript Developer Should Know**](https://jsdev.space/solid-design-principles/?ref=dailydev)
+
+**Must Read:** [**Real World JavaScript Interview Questions For All Skill Levels**](https://blog.webdevsimplified.com/2025-08/javascript-interview-questions/)
 
 <details>
 
