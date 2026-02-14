@@ -20,6 +20,8 @@
   * [Java](core-language/java.md)
 * [Backend](backend/README.md)
   * [Basics](backend/basics.md)
+  * [Spring Boot](backend/spring-boot/README.md)
+    * [Bean!](backend/spring-boot/bean.md)
 * [System Design](system-design/README.md)
   * [CSR, SSR, Streaming with Selective Hydration](system-design/csr-ssr-streaming-with-selective-hydration.md)
 * [Design Pattern](design-pattern.md)
