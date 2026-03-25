@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Interview - Tech Knowledge](README.md)
+* [Fundamentals](fundamentals.md)
 * [Core Language](core-language/README.md)
   * [JS/TS](core-language/js-ts.md)
   * [React](core-language/react/README.md)
