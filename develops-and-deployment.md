@@ -1,6 +1,0 @@
----
-icon: ubuntu
----
-
-# Develops & Deployment
-

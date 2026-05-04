@@ -59,3 +59,27 @@ Author:&#x20;
 
 </details>
 
+### Spring Boot
+
+[(2) Spring Framework: A Tutorial for Beginners | in28minutes | Ranga Karanam - YouTube](https://www.youtube.com/watch?v=f6DHAgL7FWc)
+
+[Spring Framework and Microservices Full Course](https://www.youtube.com/watch?v=Jl9OKQ92SJU\&t=18507s)
+
+[Build & Deploy a Production-Ready Patient Management System with Microservices: Java Spring Boot AWS](https://www.youtube.com/watch?v=tseqdcFfTUY\&t=42749s)
+
+[(2) Java Spring Boot Microservices Project with k8s, Docker, AWS | Monolithic to Microservices \[PART 1\] - YouTube](https://www.youtube.com/watch?v=BLlEgtp2_i8)
+
+[(2) \[2025\] Java Spring Boot Microservices with k8s, Docker, AWS | Monolithic to Microservices \[PART 2\] - YouTube](https://www.youtube.com/watch?v=EeQRAxXWDF4)
+
+<br>
+
+### Java
+
+[The Ultimate Java Mastery Series](https://codewithmosh.com/p/the-ultimate-java-mastery-series)
+
+[Spring Boot 入门教程 - codewithmosh - Spring Boot: Mastering the Fundamentals\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV13nQmYxErD/?vd_source=0a30c657e0cdfb79355208a4ffb0b54f)
+
+[3.13-Bean-Lifecycle-Hooks\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV13nQmYxErD/?vd_source=0a30c657e0cdfb79355208a4ffb0b54f\&spm_id_from=333.788.player.switch\&p=28)
+
+\
+<br>

@@ -141,6 +141,80 @@ If later `slotName = 'footer'`,\
 
 
 
+#### 𝗝𝗮𝘃𝗮𝗦𝗰𝗿𝗶𝗽𝘁 (𝗖𝗼𝗿𝗲 𝗗𝗲𝗽𝘁𝗵)
+
+1\. Explain the JavaScript event loop. Microtasks vs macrotasks?
+
+2\. Implement Promise.all from scratch.
+
+3\. Implement debounce and throttle.
+
+4\. Explain closures with a real-world example.
+
+5\. How does prototypal inheritance work?
+
+6\. Difference between var, let, and const.
+
+7\. Difference between == and ===.
+
+8\. Explain shallow copy vs deep copy. Implement deep clone.
+
+9\. How does this behave in arrow functions, class methods, and event handlers?
+
+10\. Explain call, apply, and bind with use cases.
+
+***
+
+#### 🟢 Vue 3 (Interview Depth)
+
+1. How does Vue 3’s reactivity system work internally (Proxy, dependency tracking, effect tracking)? How does Vue’s Virtual DOM diffing work?
+2. Why is :key important in v-for? What problems occur if keys are missing or incorrect?
+3. What causes unnecessary component updates in Vue 3? How can you optimize reactivity performance?
+4. Explain watch vs watchEffect deeply. How does cleanup work? What are common dependency pitfalls?
+5. Difference between computed and methods in Vue. When would you use each?
+6. When would you use shallowRef, markRaw, v-memo, or defineComponent for performance optimization?
+7. What is the difference between controlled and uncontrolled inputs in Vue (using v-model vs refs)?
+8. How does update batching work in Vue 3? What is the role of the scheduler and nextTick()?
+9. How does provide and inject work in Vue? When can it create maintainability or performance issues?
+10. Build a reusable composable like useDebounce or useFetch. How would you structure it properly?
+
+***
+
+#### 🟢 Frontend System Design (Vue / Nuxt – Senior Round)
+
+1. How would you design an autocomplete search in Vue/Nuxt with debouncing, caching, and request cancellation?
+2. How would you design an infinite scrolling feed in Vue/Nuxt with proper performance handling?
+3. How would you optimize a slow Vue/Nuxt application? What tools and strategies would you use?
+4. How would you improve Web Vitals (LCP, CLS, INP) in a Nuxt application?
+5. How would you design a reusable component library for a large Vue team?
+6. How would you handle API failures, retries, and error boundaries in Vue/Nuxt?
+7. How would you implement dark mode globally in a Nuxt application?
+8. Pinia vs Provide/Inject vs composables — how do you decide state management in a large-scale Vue app?
+9. How would you prevent XSS, CSRF, token leakage, and secure authentication flows in a Vue/Nuxt frontend?
+10. How would you design SSR, SSG, or a hybrid rendering strategy in Nuxt? When would you use each?
+
+***
+
+#### 𝗗𝗦𝗔 (𝗙𝗿𝗼𝗻𝘁𝗲𝗻𝗱 𝗥𝗼𝘂𝗻𝗱)
+
+31\. Maximum sum subarray (Kadane’s algorithm).
+
+32\. Sliding window maximum.
+
+33\. Merge k sorted linked lists.
+
+34\. Detect a cycle in a linked list.
+
+35\. Longest palindromic substring.
+
+36\. Design and implement an LRU Cache.
+
+***
+
+#### Resource :&#x20;
+
+* [DEBUGGING HACK: How I Fixed a Production Bug (No Backend Access!) 🪲](https://www.youtube.com/watch?v=ndrPcDNmwFk)
+
 
 
 
