@@ -47,9 +47,9 @@ icon: openai
 
 </details>
 
-<figure><img src="../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt="" width="563"><figcaption></figcaption></figure>
 
-<div data-full-width="true"><figure><img src="../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Topic LLM :
 

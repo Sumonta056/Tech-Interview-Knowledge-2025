@@ -43,3 +43,8 @@
   * [Large Language Models (LLMs)](road-to-ai-software-engineer/large-language-models-llms/README.md)
     * [What is LLMs?](road-to-ai-software-engineer/large-language-models-llms/what-is-llms.md)
     * [How LLMs work?](road-to-ai-software-engineer/large-language-models-llms/how-llms-work.md)
+* [Prompt Mastery](prompt-mastery/README.md)
+  * [Dev Prompts](prompt-mastery/dev-prompts.md)
+  * [Good Prompts](prompt-mastery/good-prompts.md)
+  * [Image Generation Prompt](prompt-mastery/image-generation-prompt.md)
+  * [Notebook LLM Prompt](prompt-mastery/notebook-llm-prompt.md)
