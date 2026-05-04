@@ -39,3 +39,7 @@
     * [How to make react faster!](core-language/react/how-to-make-react-faster.md)
   * [Next.js এ Hydration Error](core-language/next.js-hydration-error.md)
 * [Others & Useful Resources](others-and-useful-resources.md)
+* [Road to AI Software Engineer](road-to-ai-software-engineer/README.md)
+  * [Large Language Models (LLMs)](road-to-ai-software-engineer/large-language-models-llms/README.md)
+    * [What is LLMs?](road-to-ai-software-engineer/large-language-models-llms/what-is-llms.md)
+    * [How LLMs work?](road-to-ai-software-engineer/large-language-models-llms/how-llms-work.md)
