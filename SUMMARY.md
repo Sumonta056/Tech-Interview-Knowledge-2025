@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Interview - Tech Knowledge](README.md)
+* [About!](README.md)
 * [Road to System Design](road-to-system-design/README.md)
   * [Guidelines!](road-to-system-design/guidelines.md)
 * [Develops & Deployment](develops-and-deployment.md)
@@ -25,4 +25,4 @@
       * [How to answer question!](core-language/react/questions/how-to-answer-question.md)
     * [How to make react faster!](core-language/react/how-to-make-react-faster.md)
   * [Next.js এ Hydration Error](core-language/next.js-hydration-error.md)
-* [Useful Resources](useful-resources.md)
+* [Others & Useful Resources](others-and-useful-resources.md)

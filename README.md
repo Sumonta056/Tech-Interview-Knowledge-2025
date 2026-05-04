@@ -1,4 +1,8 @@
-# Interview - Tech Knowledge
+---
+icon: face-hand-over-mouth
+---
+
+# About!
 
 Welcome!\
 This space is dedicated to sharing valuable resources, tips, and personal insights to help students, developers, and job seekers prepare for internships, job interviews, and upskilling in software development.
@@ -22,6 +26,12 @@ Whether you’re a beginner or someone leveling up for your next job, these reso
 * I am the writer of the [Learn & Code Newsletter](https://www.linkedin.com/newsletters/learn-code-weekly-7309186050084544512), with 400+ weekly subscribers.
 * I’m passionate about sharing knowledge on software engineering, internships, and interview preparation.
 * Currently, I’m pursuing my Bachelor's degree in **Software Engineering** at **Shahjalal University of Science and Technology (SUST)**.
+
+***
+
+I made this resource during my internship preparation in 2024. I had also landed an internship at one of the top tech companies, Cefalo Bangladesh Ltd.
+
+{% embed url="https://sumontas-organization.gitbook.io/internship-preparation-2024" %}
 
 ***
 

@@ -1,4 +1,8 @@
-# Vue - Nuxt
+---
+icon: vuejs
+---
+
+# Frorntend: Vue - Nuxt
 
 <details>
 

@@ -1,10 +1,14 @@
-# SQL
+---
+icon: server
+---
+
+# Database: SQL
 
 <details>
 
 <summary>How SQL Query Executes In a Database?</summary>
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -53,3 +57,4 @@ FROM EmployeeFinancialDatabase2025Backup AS e;\
 Reference: [Lutful Mahbub Mehedi](https://www.linkedin.com/in/lutful-mehedi?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAC7qu1gBoP3-05a5kN2_n1Mgw35pdgucvmU)
 
 </details>
+
