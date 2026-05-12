@@ -16,8 +16,6 @@ Force Delete: This will delete the branch regardless of its merge status. Use th
 git branch -D <branch_name>
 ```
 
-
-
 Once the local branch is gone, you can pull down the latest version from your remote repository.
 
 First, update your local repository with the latest information from `origin`:
@@ -58,7 +56,19 @@ Finally, move your three saved files back out of the staging area so they just s
 git restore --staged .
 ```
 
+***
 
+#### ISSUE:  How to update branch when it rebased by someone else in origin
+
+When a branch is rebased, its commit history is rewritten. Because your local branch has the _old_ history and the remote branch has the _new_ rebased history, Git sees them as having diverged (which is why it says you have 88 commits to push and 95 to pull). If you click pull, Git will try to merge those two divergent histories together, which will create a massive mess of duplicate commits and likely terrible merge conflicts.
+
+```
+git fetch origin
+```
+
+```
+git reset --hard origin/PF-16-implement-killswitch
+```
 
 
 
