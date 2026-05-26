@@ -58,3 +58,133 @@ Reference: [Lutful Mahbub Mehedi](https://www.linkedin.com/in/lutful-mehedi?mini
 
 </details>
 
+<details>
+
+<summary>Database Indexing </summary>
+
+Data Indexing : The power of mapping
+
+I added one line to the query:
+
+```
+WHERE user_verified = true
+```
+
+**Query performance doesn’t scale linearly.** A query that works with 1000 rows might die with 1 million. You can’t trust local testing.
+
+In development, we had 500 test users. Query took 50ms. Fast enough that I never noticed.
+
+In staging, we had 100,000 users. Query took 800ms. Slow, but not breaking anything. I never checked.
+
+In production, with real data and real traffic, that query became a table scan on 12 million rows.
+
+Here comes the power of index
+
+## Database Indexing — Simple Explanation
+
+### What is an Index?
+
+Think of it like a **book's index page**. Instead of reading every page to find "recursion", you flip to the index, see "recursion → page 142", and go directly there.
+
+A database index works the same way — it's a separate data structure that lets the database **jump directly** to matching rows instead of scanning everything.
+
+### Your Scenario: 12M Users, No Index on `user_verified`
+
+#### ❌ Before Index — Full Table Scan
+
+sql
+
+\`SELECT \* FROM users WHERE user\_verified = true;
+
+```
+
+What the database does internally:
+```
+
+Row 1: user\_verified = false ❌ skip Row 2: user\_verified = true ✅ keep Row 3: user\_verified = false ❌ skip ... Row 12,000,000: user\_verified = true ✅ keep\`
+
+It checks **every single row** — all 12 million — even though only 8 million match. This is called a **Full Table Scan**.
+
+**Result: Slow. \~2–8 seconds on a busy server.**
+
+#### ✅ After Index — Direct Lookup
+
+sql
+
+\`CREATE INDEX idx\_user\_verified ON users(user\_verified);
+
+```
+
+Now the database builds a structure like this behind the scenes:
+```
+
+Index on user\_verified: false → \[row 1, row 3, row 7, ... 4M pointers] true → \[row 2, row 5, row 6, ... 8M pointers]\`
+
+When you query:
+
+sql
+
+`SELECT * FROM users WHERE user_verified = true;`
+
+The database goes to the index, finds `true`, and follows the **8M direct pointers** — no scanning of false rows at all.
+
+**Result: Fast. \~50–200ms.**
+
+### More Realistic Example — High Selectivity (Best case for indexes)
+
+sql
+
+* `- Finding one specific user by email (1 match out of 12M)SELECT FROM users WHERE email = 'mridul@example.com';`
+
+|              | No Index   | With Index              |
+| ------------ | ---------- | ----------------------- |
+| Rows checked | 12,000,000 | \~1 (via B-Tree lookup) |
+| Time         | \~5s       | \~1ms                   |
+
+This is where indexes **shine** — highly selective columns like `email`, `username`, `phone`.
+
+### Composite Index — Multiple Columns
+
+sql
+
+* `- Query: verified users from BangladeshSELECT FROM users WHERE user_verified = true AND country = 'BD';`
+
+Create a composite index:
+
+sql
+
+`CREATE INDEX idx_verified_country ON users(user_verified, country);`
+
+Now both conditions use the index together. **Order matters** — put the most selective column first.
+
+### The Trade-off (Nothing is Free)
+
+|                                          | Benefit       | Cost               |
+| ---------------------------------------- | ------------- | ------------------ |
+| **READ** queries                         | ⚡ Much faster | —                  |
+| **WRITE** queries (INSERT/UPDATE/DELETE) | —             | 🐢 Slightly slower |
+| **Storage**                              | —             | Extra disk space   |
+
+Every time you insert a new user, the database must **update the index too** — so writes get a small overhead.
+
+### When to Add an Index
+
+✅ **Add index when:**
+
+* Column appears in `WHERE`, `JOIN ON`, `ORDER BY` often
+* Column has high cardinality (many unique values — like email)
+* Table has 100k+ rows
+
+❌ **Skip index when:**
+
+* Small tables (full scan is fine)
+* Column rarely used in queries
+* Column updated very frequently (write-heavy)
+
+### Quick Summary
+
+> An index is a **pre-built lookup structure** that trades a little extra storage and write cost for dramatically faster reads — turning an O(n) full scan into an O(log n) or even O(1) lookup.
+
+In your case — querying 8M verified users out of 12M without an index meant the database was doing **4 million unnecessary row checks** every single time that query ran.
+
+</details>
