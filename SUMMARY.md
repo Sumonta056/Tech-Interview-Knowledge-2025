@@ -24,6 +24,7 @@
   * [Spring Boot](backend-java-and-spring-boot/spring-boot/README.md)
     * [Bean!](backend-java-and-spring-boot/spring-boot/bean.md)
 * [Frorntend: Vue - Nuxt](frorntend-vue-nuxt/README.md)
+  * [Vue Topic & Challenges!](frorntend-vue-nuxt/vue-topic-and-challenges.md)
   * [I Didn't Know This Vue Best Practice...](frorntend-vue-nuxt/i-didnt-know-this-vue-best-practice....md)
   * [CSR, SSR, Streaming with Selective Hydration](frorntend-vue-nuxt/csr-ssr-streaming-with-selective-hydration.md)
 * [Job & Market Analysis](job-and-market-analysis/README.md)
