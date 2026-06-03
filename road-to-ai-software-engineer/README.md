@@ -19,8 +19,6 @@ icon: openai
 * [Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.](https://github.com/Shubhamsaboo/awesome-llm-apps)
 * [Official code repo for the O'Reilly Book - "Hands-On Large Language Models"](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models)
 
-
-
 <details>
 
 <summary>Difference between AI and Machine Learning</summary>
@@ -49,17 +47,14 @@ icon: openai
 
 <figure><img src="../.gitbook/assets/image (4).png" alt="" width="563"><figcaption></figcaption></figure>
 
-<div data-full-width="true"><figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Topic LLM :
 
 * [How LLM Works - Piyush Garg](https://www.youtube.com/watch?v=K45s2PgywvI)
 
-
-
-Topic MCP Server & AI Agent :&#x20;
+Topic MCP Server & AI Agent :
 
 * [MCP Servers - Next Big Thing in AI](https://www.youtube.com/watch?v=vYelTr1uQmA)
 * [What is an AI Agent?](https://www.builder.io/blog/ai-agent?ref=dailydev)
 *
-
