@@ -1,8 +1,8 @@
 ---
-icon: vuejs
+icon: react
 ---
 
-# Frorntend: Vue - Nuxt
+# Frontend: Vue - Nuxt
 
 <details>
 
@@ -61,7 +61,7 @@ But in Vue (and most modern web apps), we don’t want that — we handle submis
 
 <details>
 
-<summary>Why use  <code>click.stop?</code> What is the use case of <code>stop</code> ?</summary>
+<summary>Why use <code>click.stop?</code> What is the use case of <code>stop</code> ?</summary>
 
 👇 Example:
 
@@ -139,8 +139,6 @@ If later `slotName = 'footer'`,\
 
 </details>
 
-
-
 #### 𝗝𝗮𝘃𝗮𝗦𝗰𝗿𝗶𝗽𝘁 (𝗖𝗼𝗿𝗲 𝗗𝗲𝗽𝘁𝗵)
 
 1\. Explain the JavaScript event loop. Microtasks vs macrotasks?
@@ -211,17 +209,6 @@ If later `slotName = 'footer'`,\
 
 ***
 
-#### Resource :&#x20;
+#### Resource :
 
 * [DEBUGGING HACK: How I Fixed a Production Bug (No Backend Access!) 🪲](https://www.youtube.com/watch?v=ndrPcDNmwFk)
-
-
-
-
-
-
-
-
-
-
-

@@ -1,3 +1,7 @@
+---
+icon: vuejs
+---
+
 # I Didn't Know This Vue Best Practice...
 
 <details>
@@ -578,6 +582,34 @@ Does the page need fresh data every visit? → DON'T use keep-alive
 So to directly answer you — **it's not default, it's opt-in, and it lives in browser memory only for that tab session.** Your senior's bug almost certainly came from someone adding `keep-alive` to the router layout without realizing the lifecycle hooks change completely when you do that.
 
 </details>
+
+<details>
+
+<summary>How to validate props in Vue Components with Default Value?</summary>
+
+```vue
+<script setup lang="ts">
+defineProps({
+  type: {
+    type: String,
+    default: 'default',
+    validator: (value: string) =>
+      ['primary', 'ghost', 'dashed', 'link', 'text', 'default'].includes(value),
+  },
+})
+</script>
+
+<template>
+  <button>Button</button>
+</template>
+
+```
+
+</details>
+
+
+
+
 
 
 
