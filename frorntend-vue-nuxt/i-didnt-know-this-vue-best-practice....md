@@ -26,7 +26,39 @@ icon: vuejs
 
 <details>
 
-<summary><code>watch</code> vs <code>computed</code> in Vue ? When to use which?</summary>
+<summary>What is Hydration? Inside Vue Hydration  ⭐️⭐️</summary>
+
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
+
+
+</details>
+
+<details>
+
+<summary><code>watch</code> vs <code>computed</code> in Vue ? When to use which? ⭐️⭐️</summary>
 
 * computed — derives/transforms data, cached, returns value, sync
 * watch — runs side effects when data changes, can be async, no return value
@@ -198,7 +230,7 @@ watch(
 
 <details>
 
-<summary>Avoid <code>watchEffect</code> : Use <code>watch</code></summary>
+<summary>Avoid <code>watchEffect</code> : Use <code>watch</code> ⭐️⭐️</summary>
 
 Implicit dependencies are silent bugs waiting to happen.
 
@@ -238,7 +270,7 @@ watch(
 
 <details>
 
-<summary>Vue's Component Lifecycle Order: <strong>Parent → Child</strong> relationship</summary>
+<summary>Vue's Component Lifecycle Order: <strong>Parent → Child</strong> relationship ⭐️⭐️⭐️</summary>
 
 When you have **Parent → Child** relationship, Vue mounts them in this order:
 
@@ -609,37 +641,35 @@ defineProps({
 
 
 
-<details>
 
-<summary>What is Hydration? Inside Vue Hydration </summary>
 
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+#### 🟢 Vue 3 (Interview Depth)
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+1. How does Vue 3’s reactivity system work internally (Proxy, dependency tracking, effect tracking)? How does Vue’s Virtual DOM diffing work?
+2. Why is :key important in v-for? What problems occur if keys are missing or incorrect?
+3. What causes unnecessary component updates in Vue 3? How can you optimize reactivity performance?
+4. Explain watch vs watchEffect deeply. How does cleanup work? What are common dependency pitfalls?
+5. Difference between computed and methods in Vue. When would you use each?
+6. When would you use shallowRef, markRaw, v-memo, or defineComponent for performance optimization?
+7. What is the difference between controlled and uncontrolled inputs in Vue (using v-model vs refs)?
+8. How does update batching work in Vue 3? What is the role of the scheduler and nextTick()?
+9. How does provide and inject work in Vue? When can it create maintainability or performance issues?
+10. Build a reusable composable like useDebounce or useFetch. How would you structure it properly?
 
 
 
+#### 🟢 Frontend System Design (Vue / Nuxt – Senior Round)
 
-
-
-
-</details>
+1. How would you design an autocomplete search in Vue/Nuxt with debouncing, caching, and request cancellation?
+2. How would you design an infinite scrolling feed in Vue/Nuxt with proper performance handling?
+3. How would you optimize a slow Vue/Nuxt application? What tools and strategies would you use?
+4. How would you improve Web Vitals (LCP, CLS, INP) in a Nuxt application?
+5. How would you design a reusable component library for a large Vue team?
+6. How would you handle API failures, retries, and error boundaries in Vue/Nuxt?
+7. How would you implement dark mode globally in a Nuxt application?
+8. Pinia vs Provide/Inject vs composables — how do you decide state management in a large-scale Vue app?
+9. How would you prevent XSS, CSRF, token leakage, and secure authentication flows in a Vue/Nuxt frontend?
+10. How would you design SSR, SSG, or a hybrid rendering strategy in Nuxt? When would you use each?
 
 
 
@@ -647,5 +677,7 @@ defineProps({
 
 
 
+#### Resources :&#x20;
 
+* [https://www.curotec.com/interview-questions/125-vue-js-interview-questions/#advanced-level](https://www.curotec.com/interview-questions/125-vue-js-interview-questions/#advanced-level)
 
