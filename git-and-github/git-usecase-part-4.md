@@ -58,7 +58,7 @@ git restore --staged .
 
 ***
 
-#### ISSUE:  How to update branch when it rebased by someone else in origin
+#### ISSUE: How to update branch when it rebased by someone else in origin
 
 When a branch is rebased, its commit history is rewritten. Because your local branch has the _old_ history and the remote branch has the _new_ rebased history, Git sees them as having diverged (which is why it says you have 88 commits to push and 95 to pull). If you click pull, Git will try to merge those two divergent histories together, which will create a massive mess of duplicate commits and likely terrible merge conflicts.
 
@@ -69,6 +69,20 @@ git fetch origin
 ```
 git reset --hard origin/PF-16-implement-killswitch
 ```
+
+
+
+#### ISSUE :&#x20;
+
+<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+
+{% code overflow="wrap" %}
+```
+git pull origin master --rebase
+```
+{% endcode %}
+
+
 
 
 
